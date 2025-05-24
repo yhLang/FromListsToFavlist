@@ -11,7 +11,6 @@ import time
 import re
 from urllib.parse import urlparse, parse_qs
 
-
 class FromListsTofavlist:
     def __init__(self, cookies):
         """
