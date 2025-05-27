@@ -127,7 +127,7 @@ def main():
     print("\n" + "=" * 60)
     
     # 执行转移
-    transfer = FromListsToFavlist.py(cookies)
+    transfer = FromListsToFavlist(cookies)
     success_count, failed_count = transfer.transfer_collection_to_favorites(collection_url, fav_url)
     
     print("=" * 60)
